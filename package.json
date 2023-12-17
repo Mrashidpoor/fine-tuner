@@ -1,0 +1,36 @@
+{
+  "name": "fine-tuner",
+  "version": "0.1.0",
+  "description": "A program to modify, check and pass a jsonl file for a fine-tuning job",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/app.ts",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clAient/Fine-tuner.git"
+  },
+  "keywords": [
+    "fine-tuning"
+  ],
+  "author": "Masood Rashidpoor",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/clAient/Fine-tuner/issues"
+  },
+  "homepage": "https://github.com/clAient/Fine-tuner#readme",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.23.0"
+  }
+}
