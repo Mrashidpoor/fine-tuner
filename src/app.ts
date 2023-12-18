@@ -20,7 +20,7 @@ const promptUser = async (jsonlFilePath: string) => {
 
         await initFineTuning(
           jsonlFilePath,
-          "gpt-3.5-turbo-16k",
+          "gpt-3.5-turbo-1106",
           3,
           "pheonix-dental"
         );
