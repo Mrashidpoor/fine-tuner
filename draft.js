@@ -5,7 +5,7 @@ const openai = new OpenAI({
 });
 
 const listEvents = async () => {
-    let events = await openai.fineTuning.jobs.listEvents('ftjob-dN7PO1ksgqhj2bqYwr8VnDjF', { limit: 10 });
+    let events = await openai.fineTuning.jobs.listEvents('ftjob-57iA8B2MICAss6I9rXfwgXrF', { limit: 10 });
     console.log(events.data)
 }
 
