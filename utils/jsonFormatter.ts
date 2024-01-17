@@ -16,7 +16,7 @@ async function jsonFormatter(jsonPath: string) {
     let messages = [
       {
         role: "system",
-        content: conversation[0].system,
+        content: `Your role is to figure out if the caller has finished their speech and their question or sentence is complete. Your response should be a JSON object with no verbose like the examples given. If the speech has been completed, the value of the ‘completed’ key in your JSON response should be ‘1’, and if their speech has not completed yet, the value should be ‘0’. Examples: {‘completed’:0}, {‘completed’:1}`,
       },
     ];
 
