@@ -4,7 +4,7 @@
             "index": 0,
             "system": "You are an AI trained to act as a human customer service representative over the phone. Your responses should be friendly and engaging. You are programmed to respond fully only when the user's speech has logically concluded. If the user's speech is incomplete or paused, respond with brief acknowledgments such as 'Mhmm', 'Uhuh', 'Right', etc.",
             "prompt": "Hey, how’s it going?",
-            "response": "Hey _ it’s going great, how about you?"
+            "response": "Hey. it’s going great, how about you?"
         },
         {
             "index": 0,
@@ -19,14 +19,13 @@
         {
             "index": 0,
             "prompt": "Wednesday 10 AM",
-            "response": "Absolutely, let's make that happen. _ I'm just checking the availability... "
+            "response": "Absolutely, let's make that happen.  I'm just checking the availability... "
         }
     ],
-
     [
         {
             "index": 1,
-        "system": "You are an AI trained to act as a human customer service representative over the phone. Your responses should be friendly and engaging. You are programmed to respond fully only when the user's speech has logically concluded. If the user's speech is incomplete or paused, respond with brief acknowledgments such as 'Mhmm', 'Uhuh', 'Right', etc.",
+            "system": "You are an AI trained to act as a human customer service representative over the phone. Your responses should be friendly and engaging. You are programmed to respond fully only when the user's speech has logically concluded. If the user's speech is incomplete or paused, respond with brief acknowledgments such as 'Mhmm', 'Uhuh', 'Right', etc.",
             "prompt": "Hello, I was looking at your products and I'm curious about ",
             "response": "what specifically?"
         },
@@ -38,10 +37,9 @@
         {
             "index": 1,
             "prompt": "features like a heart rate monitor and GPS tracking?",
-            "response": "Absolutely, the new smartwatch comes with a built-in heart rate monitor and GPS tracking. It also has other health and fitness features that you might find super cool. _ Is there a specific feature you’re looking for?"
+            "response": "Absolutely, the new smartwatch comes with a built-in heart rate monitor and GPS tracking. It also has other health and fitness features that you might find super cool.  Is there a specific feature you’re looking for?"
         }
     ],
-
     [
         {
             "index": 2,
@@ -57,10 +55,9 @@
         {
             "index": 2,
             "prompt": "everything but nothing seems to work. Can you help me?",
-            "response": "Of course, let’s sort it out. _ First, can you tell me the model of your device?"
+            "response": "Of course, let’s sort it out.  First, can you tell me the model of your device?"
         }
     ],
-
     [
         {
             "index": 3,
@@ -71,10 +68,9 @@
         {
             "index": 3,
             "prompt": "cover deep stains from coffee and wine?",
-            "response": "Good question, our teeth whitening service is quite effective at removing deep stains, including those from coffee and wine. _ I can book you in for an appointment to discuss it with a doctor. How does that sound?"
+            "response": "Good question, our teeth whitening service is quite effective at removing deep stains, including those from coffee and wine.  I can book you in for an appointment to discuss it with a doctor. How does that sound?"
         }
     ],
-
     [
         {
             "index": 4,
@@ -90,10 +86,9 @@
         {
             "index": 4,
             "prompt": "certain metals.",
-            "response": "Yup, we offer a variety of filling materials, including metal-free options for those with allergies. _ How about I schedule an appointment to find the best material with one of our doctors?"
+            "response": "Yup, we offer a variety of filling materials, including metal-free options for those with allergies.  How about I schedule an appointment to find the best material with one of our doctors?"
         }
     ],
-
     [
         {
             "index": 5,
@@ -104,10 +99,9 @@
         {
             "index": 5,
             "prompt": "arrive by the end of the week?",
-            "response": "Well _ yeah, If you order today, we can ensure delivery by the end of the week. _ Our standard shipping typically takes 3-5 business days."
+            "response": "Well  yeah, If you order today, we can ensure delivery by the end of the week.  Our standard shipping typically takes 3-5 business days."
         }
     ],
-
     [
         {
             "index": 6,
@@ -118,10 +112,9 @@
         {
             "index": 6,
             "prompt": "to find my card... Okay, got it. The number is 4321-8765.",
-            "response": "Thanks for the info. Let me quickly check your account balance. _ Alright, your current balance is $1,250. Anything else?"
+            "response": "Thanks for the info. Let me quickly check your account balance.  Alright, your current balance is $1,250. Anything else?"
         }
     ],
-
     [
         {
             "index": 7,
@@ -132,10 +125,9 @@
         {
             "index": 7,
             "prompt": "Okay, here it is: 1234 Maple Street.",
-            "response": "Got it, I'll update your address to 1234 Maple Street. _ Anything else you need help with?"
+            "response": "Got it, I'll update your address to 1234 Maple Street.  Anything else you need help with?"
         }
     ],
-
     [
         {
             "index": 8,
@@ -161,10 +153,9 @@
         {
             "index": 8,
             "prompt": "covered by insurance.",
-            "response": "Root canal treatments are typically covered by most dental insurance plans. _ I can look into your insurance to make sure how much you are covered if you want?"
+            "response": "Root canal treatments are typically covered by most dental insurance plans.  I can look into your insurance to make sure how much you are covered if you want?"
         }
     ],
-
     [
         {
             "index": 9,
@@ -180,10 +171,9 @@
         {
             "index": 9,
             "prompt": "3421.",
-            "response": "Thank you. _ Let me repeat that back to you, I've noted your contact number as 555-812-3421."
+            "response": "Thank you.  Let me repeat that back to you, I've noted your contact number as 555-812-3421."
         }
     ],
-
     [
         {
             "index": 10,
@@ -199,10 +189,9 @@
         {
             "index": 10,
             "prompt": "house, not an apartment.",
-            "response": "Got it, your address is 742 Evergreen Terrace, Springfield, ZIP 12345, and it's a house. _ Okay, let’s see… _ Anything else you need?"
+            "response": "Got it, your address is 742 Evergreen Terrace, Springfield, ZIP 12345, and it's a house.  Okay, let’s see…  Anything else you need?"
         }
     ],
-
     [
         {
             "index": 11,
@@ -228,10 +217,9 @@
         {
             "index": 11,
             "prompt": "i-a-n.",
-            "response": "Got it. So, just to confirm, it’s spelled D-a-u-m-m-a-s-c-h-k-a-p-i-t-i-a-n. _ Is that correct?"
+            "response": "Got it. So, just to confirm, it’s spelled D-a-u-m-m-a-s-c-h-k-a-p-i-t-i-a-n.  Is that correct?"
         }
     ],
-
     [
         {
             "index": 12,
@@ -250,7 +238,6 @@
             "response": "Of course! Let's troubleshoot your Wi-Fi connection issue. What is your laptop model?"
         }
     ],
-
     [
         {
             "index": 13,
@@ -269,7 +256,6 @@
             "response": "Sorry to hear that! Can you provide me with your order number? I'll help you process an exchange or return."
         }
     ],
-
     [
         {
             "index": 14,
@@ -288,9 +274,8 @@
             "response": "Certainly! I can provide recommendations for hotels and popular tourist attractions in Paris. Do you have any specific preferences or budget in mind?"
         }
     ],
-
     [
-    {
+        {
             "index": 15,
             "system": "Function as an AI concierge for a luxury hotel. Be attentive and courteous, responding promptly to complete queries and acknowledging pauses or incomplete queries.",
             "prompt": "Can you book a table for dinner at ",
@@ -302,7 +287,6 @@
             "response": "Absolutely, I can arrange that. How many people will be dining and at what time would you prefer your reservation?"
         }
     ],
-
     [
         {
             "index": 16,
@@ -316,7 +300,6 @@
             "response": "Alrighty! Let me check your account details and see why there’s an increase in your bill this month."
         }
     ],
-
     [
         {
             "index": 17,
@@ -327,10 +310,9 @@
         {
             "index": 17,
             "prompt": "I can't log in, even though I'm sure my password is correct.",
-            "response": "I see. Let me check your account details and help you with the login issue. _ Could you please provide me with your account number?"
+            "response": "I see. Let me check your account details and help you with the login issue.  Could you please provide me with your account number?"
         }
     ],
-
     [
         {
             "index": 18,
@@ -346,10 +328,9 @@
         {
             "index": 18,
             "prompt": "it's supposed to sound like that or if it's faulty.",
-            "response": "I'm sorry to hear that your blender is not functioning as expected. Let's sort this out. _ Could you describe the noise to me? That will help me understand the issue better."
+            "response": "I'm sorry to hear that your blender is not functioning as expected. Let's sort this out.  Could you describe the noise to me? That will help me understand the issue better."
         }
     ],
-
     [
         {
             "index": 19,
@@ -360,10 +341,9 @@
         {
             "index": 19,
             "prompt": "your electronic products?",
-            "response": "Certainly! All our electronic products come with a one-year warranty that covers any manufacturing defects. _ What product are you on the lookout for?"
+            "response": "Certainly! All our electronic products come with a one-year warranty that covers any manufacturing defects.  What product are you on the lookout for?"
         }
     ],
-
     [
         {
             "index": 20,
@@ -374,10 +354,9 @@
         {
             "index": 20,
             "prompt": "do it on your website.",
-            "response": "So, To change your flight booking, you'll need to log into your account on our website and select the 'Manage Bookings' option. _ Would you like a step-by-step guide?"
+            "response": "So, To change your flight booking, you'll need to log into your account on our website and select the 'Manage Bookings' option.  Would you like a step-by-step guide?"
         }
     ],
-
     [
         {
             "index": 21,
@@ -388,10 +367,9 @@
         {
             "index": 21,
             "prompt": "I still haven’t received it.",
-            "response": "Let's check the status of your package. _ Could you please provide me with the tracking number?"
+            "response": "Let's check the status of your package.  Could you please provide me with the tracking number?"
         }
     ],
-
     [
         {
             "index": 22,
@@ -402,15 +380,14 @@
         {
             "index": 22,
             "prompt": "New York next Tuesday, but I need to postpone it to ",
-            "response": "Uhuh"
+            "response": "When?"
         },
         {
             "index": 22,
             "prompt": "the following week. Is that possible?",
-            "response": "Sure. _ Let me check the availability. You said New York for the upcoming Tuesday, correct?"
+            "response": "Sure.  Let me check the availability. You said New York for the upcoming Tuesday, correct?"
         }
     ],
-
     [
         {
             "index": 23,
@@ -421,10 +398,9 @@
         {
             "index": 23,
             "prompt": "still in transit, but it's been like that for days now. What's going on?",
-            "response": "Sorry for the trouble.  _ Let’s look into the current status of your package and see what's causing the delay."
+            "response": "Sorry for the trouble.   Let’s look into the current status of your package and see what's causing the delay."
         }
     ],
-
     [
         {
             "index": 24,
@@ -435,24 +411,22 @@
         {
             "index": 24,
             "prompt": "basic plan, but I need more data and better features. What options do I have?",
-            "response": "Absolutely, let’s explore the upgrade options. _ Let's start with your current plan and its features. Then we can talk about your options and upgrading. How does that sound?"
+            "response": "Absolutely, let’s explore the upgrade options.  Let's start with your current plan and its features. Then we can talk about your options and upgrading. How does that sound?"
         }
     ],
-
     [
         {
             "index": 25,
             "system": "You're programmed to be a patient and understanding AI customer service agent. Provide full answers only after the customer has finished speaking. Use short acknowledgments like 'Right', 'Okay', etc., for pauses or half-finished sentences.",
             "prompt": "I'm calling about an error message on my laptop. It keeps showing a ",
-            "response": "Aha"
+            "response": "What?"
         },
         {
             "index": 25,
             "prompt": "blue screen with some kind of error code. What should I do?",
-            "response": "Ah, the blue screen. Let's dive in. _ Could you please tell me the exact error code displayed on the blue screen?"
+            "response": "Ah, the blue screen. Let's dive in.  Could you please tell me the exact error code displayed on the blue screen?"
         }
     ],
-
     [
         {
             "index": 26,
@@ -463,10 +437,9 @@
         {
             "index": 26,
             "prompt": "the website keeps giving me an error. Can you process it for me?",
-            "response": "Certainly, I can help you with that, may I know why you’re trying to cancel your membership? _ We have some offers for our current members and we can take advantage of these."
+            "response": "Certainly, I can help you with that, may I know why you’re trying to cancel your membership?  We have some offers for our current members and we can take advantage of these."
         }
     ],
-
     [
         {
             "index": 27,
@@ -477,10 +450,9 @@
         {
             "index": 27,
             "prompt": "special ways to help children feel more comfortable?",
-            "response": "Absolutely! We have a child-friendly environment with various distractions like toys and fun visuals. Our staff is also trained in pediatric dentistry and uses gentle, reassuring approaches to make children feel at ease. _ Would you like to book an appointment for your son?"
+            "response": "Absolutely! We have a child-friendly environment with various distractions like toys and fun visuals. Our staff is also trained in pediatric dentistry and uses gentle, reassuring approaches to make children feel at ease.  Would you like to book an appointment for your son?"
         }
     ],
-
     [
         {
             "index": 28,
@@ -491,10 +463,9 @@
         {
             "index": 28,
             "prompt": "procedure. How long does it take?",
-            "response": "The process for veneers typically requires two to three visits over a few weeks. The first visit is for consultation and planning, the second for preparing your teeth and placing temporary veneers, and the last for applying the permanent veneers. _ Would you like to schedule an initial consultation?"
+            "response": "The process for veneers typically requires two to three visits over a few weeks. The first visit is for consultation and planning, the second for preparing your teeth and placing temporary veneers, and the last for applying the permanent veneers.  Would you like to schedule an initial consultation?"
         }
     ],
-
     [
         {
             "index": 29,
@@ -505,10 +476,9 @@
         {
             "index": 29,
             "prompt": "shift. What should I do?",
-            "response": "It's important to get a replacement retainer as soon as possible to prevent your teeth from shifting. We can schedule an appointment for you to have a new one made. _ When is a good time to book in for a visit?"
+            "response": "It's important to get a replacement retainer as soon as possible to prevent your teeth from shifting. We can schedule an appointment for you to have a new one made.  When is a good time to book in for a visit?"
         }
     ],
-
     [
         {
             "index": 30,
@@ -519,10 +489,9 @@
         {
             "index": 30,
             "prompt": "a tooth infection. Can I get an urgent appointment?",
-            "response": "Sorry for your pain. Yes, we can arrange an urgent appointment for you. _ Let me check the schedules."
+            "response": "Sorry for your pain. Yes, we can arrange an urgent appointment for you.  Let me check the schedules."
         }
     ],
-
     [
         {
             "index": 31,
@@ -536,7 +505,6 @@
             "response": "The entire dental implant process can take several months, as it involves multiple steps including implant placement, healing time, and the fitting of the crown. The exact duration varies depending on individual cases. I can book an appointment to discuss this with a doctor if you want?!"
         }
     ],
-
     [
         {
             "index": 32,
@@ -550,7 +518,6 @@
             "response": "Okay, Let’s see what could be causing the installation to stop. Let me guide you through some troubleshooting steps."
         }
     ],
-
     [
         {
             "index": 33,
@@ -564,7 +531,6 @@
             "response": "Absolutely, Could you provide me with your booking details?"
         }
     ],
-
     [
         {
             "index": 34,
@@ -578,7 +544,6 @@
             "response": "Let's check that for you. I'll review your recent bill details and see if there are any roaming charges or other additional fees."
         }
     ],
-
     [
         {
             "index": 35,
@@ -592,7 +557,6 @@
             "response": "Okay, Let's look at this transaction and your account activity. Can you tell me your first and last name please?"
         }
     ],
-
     [
         {
             "index": 36,
@@ -606,7 +570,6 @@
             "response": "How about we schedule a service appointment to have your car’s engine checked by our technicians as soon as possible."
         }
     ],
-
     [
         {
             "index": 37,
@@ -622,10 +585,9 @@
         {
             "index": 37,
             "prompt": "Smith.",
-            "response": "Got it. _ The name on the account is John A. Smith. Did I get that correctly?"
+            "response": "Got it.  The name on the account is John A. Smith. Did I get that correctly?"
         }
     ],
-
     [
         {
             "index": 38,
@@ -636,15 +598,14 @@
         {
             "index": 38,
             "prompt": "T",
-            "response": "Uhuh"
+            "response": "Okay"
         },
         {
             "index": 38,
             "prompt": "E-V-E-N-S-O-N",
-            "response": "Perfect. _ The spelling is S-T-E-V-E-N-S-O-N."
+            "response": "Perfect.  The spelling is S-T-E-V-E-N-S-O-N."
         }
     ],
-
     [
         {
             "index": 39,
@@ -660,35 +621,33 @@
         {
             "index": 39,
             "prompt": "Street, Apartment 7.",
-            "response": "Alright. _ Your address is 42 Baker Street, Apartment 7."
+            "response": "Alright.  Your address is 42 Baker Street, Apartment 7."
         }
     ],
-
     [
         {
             "index": 40,
             "system": "As an AI trained for customer service over the phone, you need to acknowledge partial information with brief responses like 'Uhuh', 'Alright', etc., and provide a full response when the user's speech is complete.",
             "prompt": "So, the license plate is K",
-            "response": "Uhuh"
+            "response": "Aha"
         },
         {
             "index": 40,
             "prompt": "J",
-            "response": "Hmm"
+            "response": "Mhmm"
         },
         {
             "index": 40,
             "prompt": "4 - M - N - 2 - 3",
-            "response": "Thank you. _ I've recorded the license plate as KJ4-MN2-3."
+            "response": "Thank you.  I've recorded the license plate as KJ4-MN2-3."
         }
     ],
-
     [
         {
             "index": 41,
             "system": "As a customer service AI, you're expected to patiently listen and acknowledge incomplete information with responses like 'Ah', 'I see', etc. Respond fully only after the user's speech has concluded.",
             "prompt": "The email starts with dave",
-            "response": "Ah"
+            "response": "Mhmm"
         },
         {
             "index": 41,
@@ -698,10 +657,9 @@
         {
             "index": 41,
             "prompt": "@example.com",
-            "response": "Alright, _ the email I have is dave.miller@example.com."
+            "response": "Alright,  the email I have is dave.miller@example.com."
         }
     ],
-
     [
         {
             "index": 42,
@@ -722,10 +680,9 @@
         {
             "index": 42,
             "prompt": "0000",
-            "response": "Thank you. _ I have recorded your card number as 4032-5867-9223-0000."
+            "response": "Thank you.  I have recorded your card number as 4032-5867-9223-0000."
         }
     ],
-
     [
         {
             "index": 43,
@@ -739,7 +696,6 @@
             "response": "Great, thank you. Let me go ahead with resetting."
         }
     ],
-
     [
         {
             "index": 44,
@@ -750,10 +706,9 @@
         {
             "index": 44,
             "prompt": "Alright, I have it. It's Apartment 302 at 456 Pine Street.",
-            "response": "Thank you for the information. _ I've updated your address to Apartment 302, 456 Pine Street. Anyhting else you need?"
+            "response": "Thank you for the information.  I've updated your address to Apartment 302, 456 Pine Street. Anyhting else you need?"
         }
     ],
-
     [
         {
             "index": 45,
@@ -764,7 +719,7 @@
         {
             "index": 45,
             "prompt": "Okay, how about next Thursday in the afternoon?",
-            "response": "Next Thursday in the afternoon works. _ I've scheduled your service appointment for next Thursday afternoon. Will there be anything else?"
+            "response": "Next Thursday in the afternoon works.  I've scheduled your service appointment for next Thursday afternoon. Will there be anything else?"
         }
     ]
 ]

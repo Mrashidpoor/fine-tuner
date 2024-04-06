@@ -5,7 +5,7 @@ const { formatAnalyzer } = require("../utils/jsonlFormatChecker");
 const { initFineTuning } = require("../utils/fineTuner.ts");
 const readline = require("readline");
 
-const jsonFilePath = "json\\end-of-speech-recognition.json";
+const jsonFilePath = "json\\Pheonix_Dental_Beta.json";
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -20,9 +20,9 @@ const promptUser = async (jsonlFilePath: string) => {
 
         await initFineTuning(
           jsonlFilePath,
-          "gpt-3.5-turbo-1106",
-          5,
-          "pheonix-test1"
+          "gpt-3.5-turbo-0125",
+          4,
+          "pheonixBeta2.5"
         );
 
         rl.close();
