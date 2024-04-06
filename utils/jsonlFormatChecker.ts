@@ -1,7 +1,7 @@
 const { exec } = require("child_process");
 
 const formatAnalyzer = async (jsonlFilePath: string) => {
-  const pyCommand = `.\\.venv\\Scripts\\python.exe .\\formatChecker.py "${jsonlFilePath}"`;
+  const pyCommand = `.\\.venv\\Scripts\\python.exe .\\utils\\formatChecker.py "${jsonlFilePath}"`;
 
   await exec(
     pyCommand,
