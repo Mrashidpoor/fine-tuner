@@ -1,5 +1,6 @@
 [
     {
+        "index": 1,
     "messages": [
         {"role": "system", "content": "**Objective Simplified:**       Support AloAi, the AI dental clinic receptionist, by executing actions based on customer interactions. Analyze conversation transcripts to determine when and what tasks are needed.      **Simplified Guidelines for Function Execution:**            1. **Understanding Your Role:**         - Your job is to act behind the scenes, assisting AloAi by performing specific tasks as conversations with customers unfold.            2. **Function Execution Basics:**         - **No Task Identified:** If AloAi doesn't specify a task, remain idle with a \"nothing\" status."},
         { "role": "user", "content": "{AloAi: Hi there, thank you for calling Forbes I T. How can I help you today?}" },
@@ -70,7 +71,11 @@
         }
     ]
     },
+
+
+
     {
+        "index": 2,
     "messages": [
         {"role": "system", "content": "**Objective Simplified:**       Support AloAi, the AI dental clinic receptionist, by executing actions based on customer interactions. Analyze conversation transcripts to determine when and what tasks are needed.      **Simplified Guidelines for Function Execution:**            1. **Understanding Your Role:**         - Your job is to act behind the scenes, assisting AloAi by performing specific tasks as conversations with customers unfold.            2. **Function Execution Basics:**         - **No Task Identified:** If AloAi doesn't specify a task, remain idle with a \"nothing\" status."},
         { "role": "user", "content": "{AloAi: Hi there, thank you for calling Forbes I T. How can I help you today?}" },
@@ -78,19 +83,248 @@
             "role": "assistant",
             "content": "nothing"
         },
-        { "role": "user", "content": "{Caller: Hi there. Um, can you transfer me to sales, please?}" },
-        { "role": "user", "content": "{AloAi: Sure, may I have your name and phone number for the transfer?}" },
+        { "role": "user", "content": "{Caller: Hey there. Um, can you transfer me to support, please?}" },
+        { "role": "user", "content": "{AloAi: Sure, I can help with that.  May I have your name and phone number first, please?}" },
         {
             "role": "assistant",
             "content": "nothing"
         },
-        { "role": "user", "content": "{Caller: My name is Matthew, and my phone number is the 1 that I called you with.}" },
-        { "role": "user", "content": "{AloAi: Great, let me transfer you to Sales. One moment please.}" },
+        { "role": "user", "content": "{Caller: My name is Mike, and my phone number is 604 399 4002.}" },
+        { "role": "user", "content": "{AloAi: Great, let me transfer you to support. One moment please.}" },
         {
             "role": "assistant",
             "function_call": {
                 "name": "redirect_call",
-                "arguments": "{\"phoneNumber\": \"+17789179291\"}"
+                "arguments": "{\"phoneNumber\": \"+16043994002\"}"
+            }
+        }
+    ],
+    "functions": [
+        {
+            "name": "collect_ticket_info",
+            "description": "Starts the ticket opening process.",
+            "parameters": {
+                "type": "object",
+                    "properties": {}
+            }
+        },
+        {
+                "name": "redirect_call",
+                "description": "Redirects the call to the requested department.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "phoneNumber": {
+                            "type": "string",
+                            "description": "The phone number for the call to be redirected to.  \n Support: +16043994002\n Sales: +17789179291",
+                            "enum": [
+                                "+16043994002",
+                                "+17789179291"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "phoneNumber"
+                    ]
+                }
+        },
+        {
+                "name": "hangup",
+                "description": "Hangs up the call once the conversation is fully concluded and AloAi says 'Goodbye' or 'Have a great day'. Should not be called in any other circumstances unless conversation is fully concluded. Can also be trigerred after 5 ' CALLER_NOT_TALKING ' messages.",
+                "parameters": {
+                    "type": "object",
+                        "properties": {}
+                }
+        },
+        {
+                "name": "open_halopsa_ticket",
+                "description": "Opens a ticket for the caller after AloAi announces the ticket has successfully been opened.",
+                "parameters": {
+                    "type": "object",
+                        "properties": {}
+                }
+        }
+    ]
+    },
+
+
+    {
+        "index": 3,
+    "messages": [
+        {"role": "system", "content": "**Objective Simplified:**       Support AloAi, the AI dental clinic receptionist, by executing actions based on customer interactions. Analyze conversation transcripts to determine when and what tasks are needed.      **Simplified Guidelines for Function Execution:**            1. **Understanding Your Role:**         - Your job is to act behind the scenes, assisting AloAi by performing specific tasks as conversations with customers unfold.            2. **Function Execution Basics:**         - **No Task Identified:** If AloAi doesn't specify a task, remain idle with a \"nothing\" status."},
+        { "role": "user", "content": "{AloAi: Hi there, thank you for calling Forbes I T. How can I help you today?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: Hey there. Tracker is down.}" },
+        { "role": "user", "content": "{AloAi: Oh okay, Let's go through the ticket process}" },
+        {
+            "role": "assistant",
+            "function_call": {
+                "name": "collect_ticket_info",
+                "arguments": ""
+            }
+        },
+        { "role": "user", "content": "{AloAi: So can you give more details on what's going on with tracker?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: It stopped working suddenly and I cannot login.}" },
+        { "role": "user", "content": "{AloAi: Oh okay, and what's your name?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: My name is Michael.}" },
+        { "role": "user", "content": "{AloAi: Got it. And how urgent is this matter to you?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: Very urgent!}" },
+        { "role": "user", "content": "{AloAi: Noted, and may I have the name of your dental clinic?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: Family Dentals}" },
+        { "role": "user", "content": "{AloAi: Mhmm and what is the phoen number associated with your account?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: It's 604 399 4000}" },
+        { "role": "user", "content": "{AloAi: Okay great I have successfully opened your ticket. Would you want someone from our team to give you a call back or do you want to be transferred to our tech support?}" },
+        {
+            "role": "assistant",
+            "function_call": {
+                "name": "open_halopsa_ticket",
+                "arguments": ""
+            }
+        },
+        { "role": "user", "content": "{Caller: Yes please transfer me right away}" },
+        { "role": "user", "content": "{AloAi: Sure let me transfer you right now to our tech support.}" },
+        {
+            "role": "assistant",
+            "function_call": {
+                "name": "redirect_call",
+                "arguments": "{\"phoneNumber\": \"+16043994002\"}"
+            }
+        }
+    ],
+    "functions": [
+        {
+            "name": "collect_ticket_info",
+            "description": "Starts the ticket opening process.",
+            "parameters": {
+                "type": "object",
+                    "properties": {}
+            }
+        },
+        {
+                "name": "redirect_call",
+                "description": "Redirects the call to the requested department.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "phoneNumber": {
+                            "type": "string",
+                            "description": "The phone number for the call to be redirected to.  \n Support: +16043994002\n Sales: +17789179291",
+                            "enum": [
+                                "+16043994002",
+                                "+17789179291"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "phoneNumber"
+                    ]
+                }
+        },
+        {
+                "name": "hangup",
+                "description": "Hangs up the call once the conversation is fully concluded and AloAi says 'Goodbye' or 'Have a great day'. Should not be called in any other circumstances unless conversation is fully concluded. Can also be trigerred after 5 ' CALLER_NOT_TALKING ' messages.",
+                "parameters": {
+                    "type": "object",
+                        "properties": {}
+                }
+        },
+        {
+                "name": "open_halopsa_ticket",
+                "description": "Opens a ticket for the caller after AloAi announces the ticket has successfully been opened.",
+                "parameters": {
+                    "type": "object",
+                        "properties": {}
+                }
+        }
+    ]
+    },
+
+    {
+        "index": 4,
+    "messages": [
+        {"role": "system", "content": "**Objective Simplified:**       Support AloAi, the AI dental clinic receptionist, by executing actions based on customer interactions. Analyze conversation transcripts to determine when and what tasks are needed.      **Simplified Guidelines for Function Execution:**            1. **Understanding Your Role:**         - Your job is to act behind the scenes, assisting AloAi by performing specific tasks as conversations with customers unfold.            2. **Function Execution Basics:**         - **No Task Identified:** If AloAi doesn't specify a task, remain idle with a \"nothing\" status."},
+        { "role": "user", "content": "{AloAi: Hi there, thank you for calling Forbes I T. How can I help you today?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: Hey there. Tracker is down.}" },
+        { "role": "user", "content": "{AloAi: Oh okay, Let's go through the ticket process}" },
+        {
+            "role": "assistant",
+            "function_call": {
+                "name": "collect_ticket_info",
+                "arguments": ""
+            }
+        },
+        { "role": "user", "content": "{AloAi: So can you give more details on what's going on with tracker?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: It stopped working suddenly and I cannot login.}" },
+        { "role": "user", "content": "{AloAi: Oh okay, and what's your name?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: My name is Michael.}" },
+        { "role": "user", "content": "{AloAi: Got it. And how urgent is this matter to you?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: Very urgent!}" },
+        { "role": "user", "content": "{AloAi: Noted, and may I have the name of your dental clinic?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: Family Dentals}" },
+        { "role": "user", "content": "{AloAi: Mhmm and what is the phoen number associated with your account?}" },
+        {
+            "role": "assistant",
+            "content": "nothing"
+        },
+        { "role": "user", "content": "{Caller: It's 604 399 4000}" },
+        { "role": "user", "content": "{AloAi: Okay great I have successfully opened your ticket. Would you want someone from our team to give you a call back or do you want to be transferred to our tech support?}" },
+        {
+            "role": "assistant",
+            "function_call": {
+                "name": "open_halopsa_ticket",
+                "arguments": ""
+            }
+        },
+        { "role": "user", "content": "{Caller: Yes please transfer me right away}" },
+        { "role": "user", "content": "{AloAi: Sure let me transfer you right now to our tech support.}" },
+        {
+            "role": "assistant",
+            "function_call": {
+                "name": "redirect_call",
+                "arguments": "{\"phoneNumber\": \"+16043994002\"}"
             }
         }
     ],
@@ -141,4 +375,6 @@
         }
     ]
     }
+
 ]
+
