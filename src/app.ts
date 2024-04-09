@@ -21,8 +21,8 @@ const promptUser = async (jsonlFilePath: string) => {
         await initFineTuning(
           jsonlFilePath,
           "gpt-3.5-turbo-0125",
-          3,
-          "forbesit-f1.0"
+          4,
+          "forbesit-f1.1"
         );
 
         rl.close();

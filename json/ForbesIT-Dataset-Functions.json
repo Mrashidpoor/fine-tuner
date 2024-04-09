@@ -224,13 +224,13 @@
             },
             {
                 "role": "user",
-                "content": "AloAi: Oh okay, Let's go through the ticket process}"
+                "content": "AloAi: Oh okay, Let's go through the ticket process"
             },
             {
                 "role": "assistant",
                 "function_call": {
                     "name": "collect_ticket_info",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -291,7 +291,7 @@
             },
             {
                 "role": "user",
-                "content": "Caller: It's 604 399 4000}"
+                "content": "Caller: It's 604 399 4000"
             },
             {
                 "role": "user",
@@ -301,12 +301,12 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "open_halopsa_ticket",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
                 "role": "user",
-                "content": "Caller: Yes please transfer me right away}"
+                "content": "Caller: Yes please transfer me right away"
             },
             {
                 "role": "user",
@@ -394,7 +394,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "collect_ticket_info",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -465,7 +465,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "open_halopsa_ticket",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -516,7 +516,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "hangup",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             }
         ],
@@ -594,7 +594,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "collect_ticket_info",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -689,7 +689,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "open_halopsa_ticket",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -728,7 +728,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "hangup",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             }
         ],
@@ -818,7 +818,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "collect_ticket_info",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -901,7 +901,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "open_halopsa_ticket",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -1132,7 +1132,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "collect_ticket_info",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -1203,7 +1203,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "open_halopsa_ticket",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -1242,7 +1242,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "hangup",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             }
         ],
@@ -1548,7 +1548,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "collect_ticket_info",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -1619,7 +1619,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "open_halopsa_ticket",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -1808,7 +1808,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "collect_ticket_info",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
@@ -1855,7 +1855,7 @@
                 "role": "assistant",
                 "function_call": {
                     "name": "open_halopsa_ticket",
-                    "arguments": ""
+                    "arguments": "{}"
                 }
             },
             {
