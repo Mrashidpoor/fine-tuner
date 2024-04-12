@@ -224,7 +224,7 @@
             },
             {
                 "role": "user",
-                "content": "AloAi: Oh okay, Let's go through the ticket process}"
+                "content": "AloAi: Oh okay, Let's go through the ticket process."
             },
             {
                 "role": "assistant",
@@ -279,7 +279,7 @@
             },
             {
                 "role": "user",
-                "content": "Caller: Family Dentals}"
+                "content": "Caller: Family Dentals."
             },
             {
                 "role": "user",
@@ -291,7 +291,7 @@
             },
             {
                 "role": "user",
-                "content": "Caller: It's 604 399 4000}"
+                "content": "Caller: It's 604 399 4000."
             },
             {
                 "role": "user",
@@ -306,7 +306,7 @@
             },
             {
                 "role": "user",
-                "content": "Caller: Yes please transfer me right away}"
+                "content": "Caller: Yes please transfer me right away."
             },
             {
                 "role": "user",
