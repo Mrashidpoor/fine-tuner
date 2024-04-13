@@ -9,7 +9,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. How may I direct your call?"
@@ -58,7 +58,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. How may I direct your call?"
@@ -93,7 +93,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Alroght. And your phone number?"
+                "content": "Thanks Jennifer. And may I have your phone number please?"
             },
             {
                 "role": "user",
@@ -101,15 +101,15 @@
             },
             {
                 "role": "assistant",
-                "content": "Mhmm."
+                "content": "Mhmm"
             },
             {
                 "role": "user",
-                "content": "555."
+                "content": "467."
             },
             {
                 "role": "assistant",
-                "content": "Ok."
+                "content": "Ok"
             },
             {
                 "role": "user",
@@ -117,7 +117,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Let me confirm the details, Jenifer. The phone number is 6 0 4 5 5 5 3 4 4 3. Is that correct?."
+                "content": "Let me confirm the details, Jenifer. The phone number is 6 0 4 4 6 7 3 4 4 3. Is that correct?."
             },
             {
                 "role": "user",
@@ -125,7 +125,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Alright I'm going to transfer you now. Is there anything else you need from me?"
+                "content": "Alright I'm going to transfer you now. Is there anything else you need from me, Jennifer?"
             },
             {
                 "role": "user",
@@ -133,7 +133,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Okay. In case no one picked up, I have noted down your name and number and we will give you a call back. Let me transfer you now. One moment please."
+                "content": "Sounds good. In case no one picked up, I have noted down your name and number and we will give you a call back. Let me transfer you now. One moment please."
             }
         ]
     },
@@ -147,7 +147,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. How may I direct your call?"
@@ -158,11 +158,11 @@
             },
             {
                 "role": "assistant",
-                "content": "Oh okay, Let's go through the ticket process."
+                "content": "Sorry about that, Let's go through the ticket process."
             },
             {
                 "role": "assistant",
-                "content": "So can you give more details on what's going on with tracker?"
+                "content": "Can you please give me more details on what's going on with tracker?"
             },
             {
                 "role": "user",
@@ -170,7 +170,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Oh okay, and what's your name?"
+                "content": "I understand. May I have your name please?"
             },
             {
                 "role": "user",
@@ -178,7 +178,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Got it. And how urgent is this matter to you?"
+                "content": "Thank you Michael. And how urgent is this matter to you?"
             },
             {
                 "role": "user",
@@ -186,7 +186,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Noted, and may I have the name of your dental clinic?"
+                "content": "Sure, and may I have the name of your dental clinic please?"
             },
             {
                 "role": "user",
@@ -194,7 +194,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Mhmm and what is the phone number associated with your account?"
+                "content": "Mhmm and could I have the phone number associated with your account?"
             },
             {
                 "role": "user",
@@ -207,6 +207,22 @@
             {
                 "role": "user",
                 "content": "Yes. That's correct."
+            },
+            {
+                "role": "assistant",
+                "content": "Okay great! Please hold on minute while I open your ticket."
+            },
+            {
+                "role": "user",
+                "content": "Thanks."
+            },
+            {
+                "role": "user",
+                "content": "Of course Michael."
+            },
+            {
+                "role": "system",
+                "content": "ticket successfully opened"
             },
             {
                 "role": "assistant",
@@ -232,7 +248,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. How may I direct your call?"
@@ -243,11 +259,11 @@
             },
             {
                 "role": "assistant",
-                "content": "Oh okay, Let's go through the ticket process."
+                "content": "Sorry about that. Let's go through the ticket process."
             },
             {
                 "role": "assistant",
-                "content": "So what technical issue do you have?"
+                "content": "May I know what seems to be the technical issue you're facing?"
             },
             {
                 "role": "user",
@@ -255,15 +271,15 @@
             },
             {
                 "role": "assistant",
-                "content": "Okay, and what's your name?"
+                "content": "And could I have your name please?"
             },
             {
                 "role": "user",
-                "content": "My name is Michael."
+                "content": "Michael."
             },
             {
                 "role": "assistant",
-                "content": "Got it. And how urgent is this matter to you?"
+                "content": "Thanks Michael. And how urgent is this matter to you?"
             },
             {
                 "role": "user",
@@ -271,11 +287,11 @@
             },
             {
                 "role": "assistant",
-                "content": "Noted, and may I have the name of your dental clinic?"
+                "content": "Noted, and may I have the name of your dental clinic please?"
             },
             {
                 "role": "user",
-                "content": "1 2 3 Dentist"
+                "content": "123 Dentist"
             },
             {
                 "role": "assistant",
@@ -302,6 +318,10 @@
                 "content": "Yeah take your time."
             },
             {
+                "role": "system",
+                "content": "ticket successfully opened."
+            },
+            {
                 "role": "assistant",
                 "content": " Okay I successfully opened it. Would you like to be transferred to our tech support or are you okay with a call bacK?"
             },
@@ -319,7 +339,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Great! Have a wonderful day."
+                "content": "Great! Feel free to call back if you had any other questions. Have a wonderful day."
             }
         ]
     },
@@ -333,7 +353,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. How may I direct your call?"
@@ -344,11 +364,11 @@
             },
             {
                 "role": "assistant",
-                "content": "Oh okay, Let's go through the ticket process."
+                "content": "Sorry about that. Let's open a ticket for that."
             },
             {
                 "role": "assistant",
-                "content": "So what's wrong with Cleardent?"
+                "content": "So may I know what's wrong with Cleardent?"
             },
             {
                 "role": "user",
@@ -372,7 +392,7 @@
             },
             {
                 "role": "assistant",
-                "content": "And may I have the name of your dental clinic?"
+                "content": "And may I have the name of your dental clinic please?"
             },
             {
                 "role": "user",
@@ -380,7 +400,7 @@
             },
             {
                 "role": "assistant",
-                "content": "And your phone number?"
+                "content": "Thanks. And could I also have your phone number on file?"
             },
             {
                 "role": "user",
@@ -404,7 +424,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Let me confirm the details, Matthew. The Clinic is Peak Dental and the phone number is 6 0 4 5 5 5 3 4 4 3. Is that correct?."
+                "content": "Let me confirm the details, Sina. The Clinic is Peak Dental and the phone number is 6 0 4 5 5 5 3 4 4 3. Is that correct?."
             },
             {
                 "role": "user",
@@ -420,7 +440,15 @@
             },
             {
                 "role": "assistant",
-                "content": "Opened. Would you like me to transfer you to our tech support right now or do you want to receive a call back?"
+                "content": "Appreciate your patience."
+            },
+            {
+                "role": "system",
+                "content": "ticket successfully opened"
+            },
+            {
+                "role": "assistant",
+                "content": "Thanks for holding with me Sina. I have successfully opened your ticket. Would you like me to transfer you to our tech support right now or do you want to receive a call back?"
             },
             {
                 "role": "user",
@@ -428,7 +456,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Sure. Someone will soon follow up with your ticket. Anything else you need?"
+                "content": "Sure thing Sina. Someone will soon follow up with your ticket. Is there anything else I can assist you with?"
             },
             {
                 "role": "user",
@@ -436,7 +464,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Okay, take care."
+                "content": "Thank you so much for calling Sina. Have a fantastic day!"
             }
         ]
     },
@@ -450,7 +478,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. How may I direct your call?"
@@ -461,7 +489,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Sure thing. What is your technical question?"
+                "content": "Sure I'll be happy to help. What is your technical question?"
             },
             {
                 "role": "user",
@@ -469,11 +497,11 @@
             },
             {
                 "role": "assistant",
-                "content": "Okay, Let's open a ticket."
+                "content": "Okay, Let's open a ticket for that."
             },
             {
                 "role": "assistant",
-                "content": "So can you give me more details about the problem with your Xray?"
+                "content": "So could you please give me more details about the problem with your Xray?"
             },
             {
                 "role": "user",
@@ -481,7 +509,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Alright and how urgent is this matter to you?"
+                "content": "Sorry about that and may I know how urgent is this matter to you?"
             },
             {
                 "role": "user",
@@ -559,7 +587,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. How may I direct your call?"
@@ -632,7 +660,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. How may I direct your call?"
@@ -745,7 +773,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. How may I direct your call?"
@@ -802,7 +830,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. Are you looking for support?"
@@ -867,7 +895,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. Are you looking for support?"
@@ -968,7 +996,7 @@
             {
                 "role": "system",
                 "content": "Caller phone number: +16045553443"
-                },
+            },
             {
                 "role": "assistant",
                 "content": "Hi there, thank you for calling Forbes I T. Are you looking for support?"
