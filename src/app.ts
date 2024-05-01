@@ -1,11 +1,11 @@
 import { exit } from "process";
 require("dotenv").config();
-const { jsonFormatter: jsonlFormatter } = require("../utils/jsonFormatter");
-const { formatAnalyzer } = require("../utils/jsonlFormatChecker");
-const { initFineTuning } = require("../utils/fineTuner.ts");
+const { jsonFormatter: jsonlFormatter } = require("../src/utils/jsonFormatter");
+const { formatAnalyzer } = require("../src/utils/jsonlFormatChecker");
+const { initFineTuning } = require("../src/utils/fineTuner.ts");
 const readline = require("readline");
 
-const jsonFilePath = "json\\ForbesIT-Dataset-Functions.json";
+const jsonFilePath = "json\\ForbesIT-Dataset-SpeechV1.1.json";
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -22,7 +22,7 @@ const promptUser = async (jsonlFilePath: string) => {
           jsonlFilePath,
           "gpt-3.5-turbo-0125",
           4,
-          "forbesit-f1.1"
+          "forbesit-s1.1"
         );
 
         rl.close();
@@ -41,7 +41,7 @@ const promptUser = async (jsonlFilePath: string) => {
 
 const start = async () => {
   try {
-    const jsonlFilePath = await jsonlFormatter(jsonFilePath);
+    const jsonlFilePath = await jsonlFormatter(jsonFilePath, 'Speech');
     await formatAnalyzer(jsonlFilePath);
     setTimeout(() => {
       promptUser(jsonlFilePath);

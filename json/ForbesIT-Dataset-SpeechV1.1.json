@@ -545,11 +545,19 @@
             },
             {
                 "role": "user",
-                "content": "Yes please."
+                "content": "No it's alright just give me a call back."
             },
             {
                 "role": "assistant",
-                "content": "Sure thing. I am going to transfer you now. Thanks for calling. In case no one picked up, I have noted down your info and we will follow up soon. Have a good day Rebecca!"
+                "content": "Of course Rebecca. We will soon follow up with your ticket. Is there anything else I can assist you with?"
+            },
+            {
+                "role": "user",
+                "content": "No that was all."
+            },
+            {
+                "role": "assistant",
+                "content": "Perfect! Once again, thanks for calling. Have an amazing day."
             }
         ]
     },
