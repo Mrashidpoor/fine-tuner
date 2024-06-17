@@ -5,7 +5,7 @@ const { formatAnalyzer } = require("../src/utils/jsonlFormatChecker");
 const { initFineTuning } = require("../src/utils/fineTuner.ts");
 const readline = require("readline");
 
-const jsonFilePath = "json\\ForbesIT-Dataset-SpeechV1.1.json";
+const jsonFilePath = "templates\\ForbesIT\\ForbesIT-Dataset-SpeechV1.1.json";
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -20,9 +20,9 @@ const promptUser = async (jsonlFilePath: string) => {
 
         await initFineTuning(
           jsonlFilePath,
-          "gpt-3.5-turbo-0125",
-          4,
-          "forbesit-s1.1"
+          "ft:gpt-3.5-turbo-0125:personal:eos:9S89WmkK",
+          5,
+          "forbesit-s1.3"
         );
 
         rl.close();
