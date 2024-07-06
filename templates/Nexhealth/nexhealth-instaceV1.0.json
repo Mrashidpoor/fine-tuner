@@ -1,0 +1,163 @@
+[
+    {
+        "index": 0,
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an AI agent handling calls for a dental clinic. You have to assist the caller in booking, rescheduling or cancelling appointments and redirecting calls to requested departments."
+            },
+            {
+                "role": "system",
+                "content": "Caller phone number: +17185557777"
+            },
+            {
+                "role": "assistant",
+                "content": "Thanks for calling Bay Oaks Petric Dentistry. How can I help you?"
+            },
+            {
+                "role": "user",
+                "content": "Good morning. I want to reschedule my daughter's appointment."
+            },
+            {
+                "role": "assistant",
+                "content": "Sure. Is your phone number on file 7 1 8 5 5 5 7 7 7 7 ?"
+            },
+            {
+                "role": "user",
+                "content": "That's right!"
+            },
+            {
+                "role": "assistant",
+                "content": "And could I have your daughter's date of birth please?"
+            },
+            {
+                "role": "user",
+                "content": "July 16th, 2012"
+            },
+            {
+                "role": "assistant",
+                "content": "Was that 16th of July 2012?"
+            },
+            {
+                "role": "user",
+                "content": "Yes that's right!"
+            },
+            {
+                "role": "assistant",
+                "content": "Thanks please give me a quick second."
+            },
+            {
+                "role": "system",
+                "content": "{patientId: 263574809, name: Zahra Zareghi, email: Zahra123@gmail.com, phone: 7185557777, date_of_birth: 2012-07-16}"
+            },
+            {
+                "role": "assistant",
+                "content": "Is your daughter's name Zahra?"
+            },
+            {
+                "role": "user",
+                "content": "Yes"
+            },
+            {
+                "role": "assistant",
+                "content": "Do you know when approximately the appointment was?"
+            },
+            {
+                "role": "user",
+                "content": "I think it was for next week."
+            },
+            {
+                "role": "assistant",
+                "content": "Okay sure please give me a second to look it up."
+            },
+            {
+                "role": "system",
+                "content": "{appointment_id: 325322112, start_time: 2024-05-16T12:00:00.000Z, provider: Brian Albert, patient_info: Patient Name: Zahra Zareghi\nDOB: 2012-07-16\nEmail: Zahra123@gmail.com\nPhone: 7185557777\nZip Code: \nAppointment Type: Cleaning}"
+            },
+            {
+                "role": "assistant",
+                "content": "You had a cleaning appointment at 12 PM on 16th of May. When would you like to reschedule your new appointment?"
+            },
+            {
+                "role": "user",
+                "content": "Do you have anything for the first week of July?"
+            },
+            {
+                "role": "assistant",
+                "content": "Let me check our availibility for that time. One moment please."
+            },
+            {
+                "role": "system",
+                "content": "{timeSlots: July 2, 2024, 9:00 AM, July 2, 2024, 10:00 AM, July 2, 2024, 11:00 AM, July 2, 2024, 12:00 AM, July 2, 2024, 01:00 PM, July 2, 2024, 02:00 PM, July 2, 2024, 03:00 PM, July 2, 2024, 04:00 PM}"
+            },
+            {
+                "role": "assistant",
+                "content": "We have morning and afternoon slots for July 2nd. Can you come in at 9 AM?"
+            },
+            {
+                "role": "user",
+                "content": "Can you check for July 5th please?"
+            },
+            {
+                "role": "assistant",
+                "content": "Sure give me a second"
+            },
+            {
+                "role": "system",
+                "content": "{timeSlots: July 5, 2024, 11:00 AM, July 5, 2024, 02:00 PM, July 2, 2024, 04:00 PM, July 7, 2024, 09:00 AM, July 7, 2024, 11:00 PM, July 7, 2024, 12:00 AM, July 7, 2024, 02:00 PM, July 7, 2024, 03:00 PM}"
+            },
+            {
+                "role": "assistant",
+                "content": "The earliest on 5th is at 11 AM. Can you make that?"
+            },
+            {
+                "role": "user",
+                "content": "How about 1 pm?"
+            },
+            {
+                "role": "assistant",
+                "content": "That time is booked but we have one at 2 PM. How's that?"
+            },
+            {
+                "role": "user",
+                "content": "Yeah that works."
+            },
+            {
+                "role": "assistant",
+                "content": "Amazing! So just to confirm you want to reschedule for a cleaning appointment on July 7th under the phone number ending in 7 7 7 7 and date of birth of July 16th 2012. Correct?"
+            },
+            {
+                "role": "user",
+                "content": "That's right."
+            },
+            {
+                "role": "assistant",
+                "content": "Thanks. Please give me a second to reschedule your appointment."
+            },
+            {
+                "role": "system",
+                "content": "{appointmentInfo: provider: Brian Albert, startTime: July 7, 2024, 02:00 PM}"
+            },
+            {
+                "role": "assistant",
+                "content": "Alright I rescheduled it. We'll see your daughter on the 7th. Anything else you need from me?"
+            },
+            {
+                "role": "user",
+                "content": "Who will be working on the case?"
+            },
+            {
+                "role": "assistant",
+                "content": "Dr. Albert will take care of it. Anything else I can help you with?"
+            },
+            {
+                "role": "user",
+                "content": "No that was all. Thank you"
+            },
+            {
+                "role": "assistant",
+                "content": "My pleasure. Have a fantastic day! Bye."
+            }
+        ]
+    }
+]
