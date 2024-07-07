@@ -8,7 +8,7 @@
             },
             {
                 "role": "system",
-                "content": "Caller phone number: +17185557777"
+                "content": "Current time: Saturday, June 29, 2024 at 12:25 PM, Caller phone number: +17185557777"
             },
             {
                 "role": "assistant",
@@ -157,6 +157,564 @@
             {
                 "role": "assistant",
                 "content": "My pleasure. Have a fantastic day! Bye."
+            }
+        ]
+    },
+    {
+        "index": 1,
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an AI agent handling calls for a dental clinic. You have to assist the caller in booking, rescheduling or cancelling appointments and redirecting calls to requested departments."
+            },
+            {
+                "role": "system",
+                "content": "Current time: Saturday, July 3, 2024 at 9:25 AM, \n Caller Phone Number: +16043994604"
+            },
+            {
+                "role": "assistant",
+                "content": "Thank you for calling Credit Smiles. How can I help you?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, ma'am. I, have my son, he's"
+            },
+            {
+                "role": "assistant",
+                "content": "Mhmm"
+            },
+            {
+                "role": "user",
+                "content": "was a dental ortho patient"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay"
+            },
+            {
+                "role": "user",
+                "content": "and he's got a wire that's poking him pretty badly"
+            },
+            {
+                "role": "assistant",
+                "content": "Oh"
+            },
+            {
+                "role": "user",
+                "content": "that his next appointment for ortho isn't for a couple more weekends. Is there a way to bring him in just to have it adjusted?"
+            },
+            {
+                "role": "assistant",
+                "content": "Sure let me check our schedule. Give me a second please"
+            },
+            {
+                "role": "system",
+                "content": "{timeSlots: July 5, 2024, 11:00 AM, July 5, 2024, 02:00 PM, July 5, 2024, 04:00 PM, July 7, 2024, 09:00 AM, July 7, 2024, 11:00 PM, July 7, 2024, 12:00 AM, July 7, 2024, 02:00 PM, July 7, 2024, 03:00 PM}"
+            },
+            {
+                "role": "assistant",
+                "content": "Can you come in at 11 AM on Monday?"
+            },
+            {
+                "role": "user",
+                "content": "Yes that works."
+            },
+            {
+                "role": "assistant",
+                "content": "Sure is your phone number on file 6 0 4 3 9 9 4 6 0 4?"
+            },
+            {
+                "role": "user",
+                "content": "No it's 604"
+            },
+            {
+                "role": "assistant",
+                "content": "Mhmm"
+            },
+            {
+                "role": "user",
+                "content": "399-5004"
+            },
+            {
+                "role": "assistant",
+                "content": "So that was 6 0 4 3 9 9 5 0 0 4?"
+            },
+            {
+                "role": "user",
+                "content": "Right"
+            },
+            {
+                "role": "assistant",
+                "content": "And may I know your son's date of birth please?"
+            },
+            {
+                "role": "user",
+                "content": "Yeah it's May 12th 2003"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay please give me a second to look him up."
+            },
+            {
+                "role": "system",
+                "content": "{patientId: 263574809, name: Masood Rashidpoor, email: Masood.R@gmail.com, phone: 6043995004, date_of_birth: 2003-05-12}"
+            },
+            {
+                "role": "assistant",
+                "content": "Is your son's name Masood?"
+            },
+            {
+                "role": "user",
+                "content": "Yes"
+            },
+            {
+                "role": "assistant",
+                "content": "You said your previous appointment was in two weeks right?"
+            },
+            {
+                "role": "user",
+                "content": "Yes"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay let me quickly pull it up."
+            },
+            {
+                "role": "system",
+                "content": "{appointment_id: 326342212, start_time: 2024-07-16T14:00:00.000Z, provider: Vajahat Yar Khan, patient_info: Patient Name: Masood Rashidpoor\nDOB: 2003-05-12\nEmail: Masood.R@gmail.com\nPhone: 6043995004\nZip Code: \nAppointment Type: orthodontics}"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay found it you want to reschedule it for next two weeks right?"
+            },
+            {
+                "role": "user",
+                "content": "Yep."
+            },
+            {
+                "role": "assistant",
+                "content": "Okay please give me a second to reschedule it."
+            },
+            {
+                "role": "system",
+                "content": "{appointmentInfo: provider: Vajahat Yar Khan, startTime: July 5, 2024, 11:00 AM}"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay I successfully rescheduled it. See you in two days. Is there anything else I can help you with?"
+            },
+            {
+                "role": "user",
+                "content": "Yes I have an insurance with MPC wanted to know if I'll get covered."
+            },
+            {
+                "role": "assistant",
+                "content": "Sure let me transfer you to our team to further assist you with that. Thanks for calling. Have a great day!"
+            }
+        ]
+    },
+    {
+        "index": 2,
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an AI agent handling calls for a dental clinic. You have to assist the caller in booking, rescheduling or cancelling appointments and redirecting calls to requested departments."
+            },
+            {
+                "role": "system",
+                "content": "Current time: Saturday, May 7, 2024 at 4:25 PM, \n Caller Phone Number: +16049177271"
+            },
+            {
+                "role": "assistant",
+                "content": "Hi thank you for calling Credit Smiles. How can I help you?"
+            },
+            {
+                "role": "user",
+                "content": "Hi Yes is Zea here?"
+            },
+            {
+                "role": "assistant",
+                "content": "I can transfer you to her but may I know what this is about?"
+            },
+            {
+                "role": "user",
+                "content": "I was I wanted to ask to speak to Zea, but I have a a question. Can do you think you could help me?"
+            },
+            {
+                "role": "assistant",
+                "content": "Sure will do my best if not transfer you to our team"
+            },
+            {
+                "role": "user",
+                "content": "Alright. I was calling to find out"
+            },
+            {
+                "role": "assistant",
+                "content": "Mhmm"
+            },
+            {
+                "role": "user",
+                "content": "what outside well, what individual dental plan that will cover me getting implants that I can pay out of pocket?"
+            },
+            {
+                "role": "assistant",
+                "content": "I think the best way to go about it is talk to Nico because he, he knows about insurance. He's the biller. Is there anything else you need from me?"
+            },
+            {
+                "role": "user",
+                "content": "No that's all."
+            },
+            {
+                "role": "assistant",
+                "content": "Okay let me transfer you to Nico. Please stay on the line."
+            }
+        ]
+    },
+    {
+        "index": 3,
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an AI agent handling calls for a dental clinic. You have to assist the caller in booking, rescheduling or cancelling appointments and redirecting calls to requested departments."
+            },
+            {
+                "role": "system",
+                "content": "Current time: Saturday, May 10, 2024 at 6:25 PM, \n Caller Phone Number: +16049177271"
+            },
+            {
+                "role": "assistant",
+                "content": "Hi thank you for calling Creative Smiles. How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "Yes. I'm calling to make an appointment for my children."
+            },
+            {
+                "role": "assistant",
+                "content": "Sure what type of appointment were you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Cleaning"
+            },
+            {
+                "role": "assistant",
+                "content": "What time were you looking to come in?"
+            },
+            {
+                "role": "user",
+                "content": "As early as possible!"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay please give me a second to check our schedule."
+            },
+            {
+                "role": "user",
+                "content": "Sure"
+            },
+            {
+                "role": "assistant",
+                "content": "Thanks for holding!"
+            },
+            {
+                "role": "system",
+                "content": "{timeSlots: May 11, 2024, 11:00 AM, May 11, 2024, 02:00 PM, May 11, 2024, 04:00 PM, May 7, 2024, 09:00 AM, May 7, 2024, 11:00 PM, May 7, 2024, 12:00 AM, May 7, 2024, 02:00 PM, May 7, 2024, 03:00 PM}, session time: 1 hour, operatory id: 62991"
+            },
+            {
+                "role": "assistant",
+                "content": "Can you come in at 11 AM tomorrow?"
+            },
+            {
+                "role": "user",
+                "content": "Do you have anything else for that day?"
+            },
+            {
+                "role": "assistant",
+                "content": "We also have slots at 2 and 4 PM."
+            },
+            {
+                "role": "user",
+                "content": "2 PM works."
+            },
+            {
+                "role": "assistant",
+                "content": "Okay great. Is this your first visit to our clinic?"
+            },
+            {
+                "role": "user",
+                "content": "No I've been there before."
+            },
+            {
+                "role": "assistant",
+                "content": "Is your phone number on file 6 0 4 9 1 7 7 2 7 1?"
+            },
+            {
+                "role": "user",
+                "content": "No I'm calling with my frind's phone. It's"
+            },
+            {
+                "role": "assistant",
+                "content": "what?"
+            },
+            {
+                "role": "user",
+                "content": "604-399-5004"
+            },
+            {
+                "role": "assistant",
+                "content": "So that was 6 0 4 3 9 9 5 0 0 4 right?"
+            },
+            {
+                "role": "user",
+                "content": "Yes."
+            },
+            {
+                "role": "assistant",
+                "content": "And could I have his date of birth please?"
+            },
+            {
+                "role": "user",
+                "content": "August 17, 2015"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay please give me a second to look him up."
+            },
+            {
+                "role": "system",
+                "content": "No patients found"
+            },
+            {
+                "role": "assistant",
+                "content": "I was unable to locate him in our system. Let me add him as a new patient. May I know his name please?"
+            },
+            {
+                "role": "user",
+                "content": "Savannah Napier"
+            },
+            {
+                "role": "assistant",
+                "content": "And could I also get your email please?"
+            },
+            {
+                "role": "user",
+                "content": "Yeah it's his first name. last name 123 at gmail .com"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay so that's Savannah.Napier123@gmail.com right?"
+            },
+            {
+                "role": "user",
+                "content": "Right"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay please give me a quick second."
+            },
+            {
+                "role": "system",
+                "content": "{patientId: 263574809, name: Savannah Napier, phone: 6043995004, date_of_birth: 2015-08-17}"
+            },
+            {
+                "role": "assistant",
+                "content": "Alright I successfully added him now just to confirm you want to schedule a cleaining session for May 11th at 2 PM for Savannah Napier right?"
+            },
+            {
+                "role": "user",
+                "content": "Yes that's right."
+            },
+            {
+                "role": "assistant",
+                "content": "Okay please give me a quick second to book the appointment."
+            },
+            {
+                "role": "system",
+                "content": "{provider: Brian Albert, appointment_start_time: 2024-05-11T14:00:00Z, appointment_end_time: 2024-05-11T15:00:00Z}"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay done. We'll see your son tomorrow at 2 PM. Is there anything else you need?"
+            },
+            {
+                "role": "user",
+                "content": "No that's all thanks so much!"
+            },
+            {
+                "role": "assistant",
+                "content": "My pleasure! Thanks for calling again. Have a great day."
+            }
+        ]
+    },
+    {
+        "index": 4,
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an AI agent handling calls for a dental clinic. You have to assist the caller in booking, rescheduling or cancelling appointments and redirecting calls to requested departments."
+            },
+            {
+                "role": "system",
+                "content": "Current time: Wednesday, August 23, 2024 at 12:03 PM, \n Caller Phone Number: +16049177271"
+            },
+            {
+                "role": "assistant",
+                "content": "Hi thank you for calling Creative Smiles. How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "Hi I just wanna make sure. Do I have a appointment today?"
+            },
+            {
+                "role": "assistant",
+                "content": "Sure is your phone number on file 6 0 4 9 1 7 7 2 7 1?"
+            },
+            {
+                "role": "user",
+                "content": "Yes that's right!"
+            },
+            {
+                "role": "assistant",
+                "content": "And what is your date of birth?"
+            },
+            {
+                "role": "user",
+                "content": "August 4 1995"
+            },
+            {
+                "role": "assistant",
+                "content": "August 4th 1995 right?"
+            },
+            {
+                "role": "user",
+                "content": "No I said 1998"
+            },
+            {
+                "role": "assistant",
+                "content": "Oh so August 4th 1998?"
+            },
+            {
+                "role": "user",
+                "content": "Right"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay please give me a second."
+            },
+            {
+                "role": "system",
+                "content": "{patientId: 263574710, name: Robert Jones, phone: 6049177271, date_of_birth: 1998-08-04}"
+            },
+            {
+                "role": "assistant",
+                "content": "Found you in our system. You said your appointment was today right?"
+            },
+            {
+                "role": "user",
+                "content": "Yes."
+            },
+            {
+                "role": "assistant",
+                "content": "Okay please give me a second to look it up."
+            },
+            {
+                "role": "system",
+                "content": "{appointment_id: 326342212, start_time: 2024-08-23T14:00:00.000Z, provider: Vajahat Yar Khan, patient_info: Patient Name: Robert Jones\nDOB: 1998-08-04\nEmail: Robert.J@gmail.com\nPhone: 6049177271\nZip Code: \nAppointment Type: Cleaning}"
+            },
+            {
+                "role": "assistant",
+                "content": "Found your appointment for today at 2 PM."
+            },
+            {
+                "role": "user",
+                "content": "Oh okay. Can I also check my coverage to see how much my insurance will cover."
+            },
+            {
+                "role": "assistant",
+                "content": "Absolutely! I can transfer you to our team to further assist you with that. Is there anything else you need from me?"
+            },
+            {
+                "role": "user",
+                "content": "No that's all"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay transferring you now. Please stay on the line."
+            }
+        ]
+    },
+    {
+        "index": 5,
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an AI agent handling calls for a dental clinic. You have to assist the caller in booking, rescheduling or cancelling appointments and redirecting calls to requested departments."
+            },
+            {
+                "role": "system",
+                "content": "Current time: Wednesday, August 23, 2024 at 12:03 PM, \n Caller Phone Number: +16049177271"
+            },
+            {
+                "role": "assistant",
+                "content": "Hi thank you for calling Creative Smiles. How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": " Hi. This is Celia from UT Orthology. I was calling on patient, last name is sham is s hamjith."
+            },
+            {
+                "role": "assistant",
+                "content": "Sorry what is this about?"
+            },
+            {
+                "role": "user",
+                "content": "I had called you on 16th because, we got this, and we don't have the patient's signature."
+            },
+            {
+                "role": "assistant",
+                "content": "Okay sure let me transfer to one of our team members to further assist you with this. Please stay on the line."
+            }
+        ]
+    },
+    {
+        "index": 6,
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an AI agent handling calls for a dental clinic. You have to assist the caller in booking, rescheduling or cancelling appointments and redirecting calls to requested departments."
+            },
+            {
+                "role": "system",
+                "content": "Current time: Wednesday, August 23, 2024 at 12:03 PM, \n Caller Phone Number: +16049177271"
+            },
+            {
+                "role": "assistant",
+                "content": "Hi thank you for calling Creative Smiles. How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "Hi. I, my son is scheduled for"
+            },
+            {
+                "role": "assistant",
+                "content": "Mhmm"
+            },
+            {
+                "role": "user",
+                "content": "a dentist appointment later this month, but,"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay"
+            },
+            {
+                "role": "user",
+                "content": "I wanted to double check and see what day the insurance will approve"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay sure let me transfer you to our team to further assist you. Please stay on the line."
             }
         ]
     }
