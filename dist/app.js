@@ -24,7 +24,7 @@ const promptUser = (jsonlFilePath) => __awaiter(void 0, void 0, void 0, function
     rl.question(`If you are satisfied with the results, type in "let's go" to start fine-tuning or type abort to exit. `, (input) => __awaiter(void 0, void 0, void 0, function* () {
         if (input === "let's go") {
             console.log("Nice! Let's gooo team clAient.");
-            yield initFineTuning(jsonlFilePath, "ft:gpt-3.5-turbo-0125:personal:eos:9S89WmkK", 8, "nexhealth-s1.1");
+            yield initFineTuning(jsonlFilePath, "ft:gpt-3.5-turbo-0125:personal:eos:9S89WmkK", 4, "nexhealth-s1.3");
             rl.close();
         }
         else if (input === "abort") {

@@ -21,8 +21,8 @@ const promptUser = async (jsonlFilePath: string) => {
         await initFineTuning(
           jsonlFilePath,
           "ft:gpt-3.5-turbo-0125:personal:eos:9S89WmkK",
-          8,
-          "nexhealth-s1.1"
+          4,
+          "nexhealth-s1.3"
         );
 
         rl.close();
